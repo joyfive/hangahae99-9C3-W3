@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Poppins', sans-serif; 
+}
+
+h1 {
+    width: 50%;
+    max-width: 800px;
+    margin: 100px auto 40px auto;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.group {
+    width: 50%;
+    max-width: 800px;
+    margin: 10px auto 10px auto;
+    background-color: #efefef;
+    padding: 2% 3% 2% 3%;
+    border-radius: 10px;
+}
+
+.group2 {
+    width: 50%;
+    max-width: 800px;
+    margin: 10px auto 10px auto;
+    background-color: #efefef;
+    padding: 2% 3% 2% 3%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.subject {
+    color: #121212;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.textbox {
+    width: 80%;
+    max-width: 1200px;
+    margin: 10px auto 0 auto;
+    font-size: 13px;
+    padding: 5px;
+    color: #777777;
+}
+
+.bodytxt {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+.btn {
+    width: 50%;
+    max-width: 1200px;
+    margin: 40px auto 80px auto;
+    
+}
+
+#button {
+    background-color: #121212;
+    color: #efefef;
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
+}

@@ -1,36 +1,63 @@
 <html>
 <head>
     <title>Joyfive's join page</title>
+    <link rel="stylesheet" href="join.css">
+    <sript src="index.js"></sript>
+
 </head>
 
 <body>
+
+        <h1>회원가입 신청서</h1>
+
     <form action="" onsubmit="submit();">
-    <p>First name :</p> <input id="" type="" required>
-    
-    <p>Last name :</p> <input id="" type="" required>
-    
-    <p>E-mail :</p> <input id="" type="" required>
-    
-    <p>Gender :</p> 
-    <input name="gender" type="radio" value="male_info" required> Male
-    <input name="gender" type="radio" value="male_info" required> Female
-
-    <p>Favorite :</p> 
-    <input name="lang" type="checkbox" value="html_box" /> HTML
-    <input name="lang" type="checkbox" value="java_box" /> JAVA
-    <input name="lang" type="checkbox" value="js_box" /> JavaScript
-
-    <p>Browser :</p> 
-    <select id="browsers" name="browsers" required>
-        <option value="chrome" >크롬</option>
-        <option value="safari" >사파리</option>
-        <option value="edge" >엣지</option>
-    </select>
-
-    <p>Birthday :</p>
-    <input type="date" name="birthday" />
-    <input type="submit"/>
+        <div class="group">
+            <div class="subject">First name :</div> 
+            <input id="first_name" class="textbox" type="text" required>
+        </div>
+        <div class="group">
+            <div class="subject">Last name :</div> 
+            <input id="last_name" class="textbox" type="text" required>
+        </div>
+        <div class="group">
+            <div class="subject">E-mail :</div> <input id="email" type="text" class="textbox" required>
+        </div>
+        <div class="group2">
+            <div class="subject">Gender :
+            </div>
+            <div class="bodytxt">
+                <input name="gender" type="radio" value="male_info" required> Male
+                <input name="gender" type="radio" value="female_info" required> Female
+            </div>
+        </div>
+        <div class="group2">
+            <div class="subject">Favorite : 
+            </div>
+            <div class="bodytxt">
+                <input name="lang" type="checkbox" value="html_box" /> HTML
+                <input name="lang" type="checkbox" value="java_box" /> JAVA
+                <input name="lang" type="checkbox" value="js_box" /> JavaScript
+            </div>
+        </div>
+        <div class="group">
+                <div class="subject">Browser :
+                    <select id="browsers" name="browsers" required>
+                        <option value="chrome" >크롬</option>
+                        <option value="safari" >사파리</option>
+                        <option value="edge" >엣지</option>
+                    </select>
+                </div>
+        </div>
+        <div class="group">
+            <div class="subject">Birthday :
+                <input type="date" name="birthday" />
+            </div>
+        </div>
+        <div class="btn">
+            <input type="submit" id="button" value="제출하기" /> 
+        </div>
     </form>
+   
 </body>
 
 </html>

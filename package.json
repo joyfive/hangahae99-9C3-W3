@@ -1,0 +1,23 @@
+{
+  "name": "week3",
+  "version": "1.0.0",
+  "description": "week3 in hanghae99 9th.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/joyfive/hangahae99-9C3-W3.git"
+  },
+  "keywords": [
+    "npm",
+    "publish"
+  ],
+  "author": "Joyfive",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joyfive/hangahae99-9C3-W3/issues"
+  },
+  "homepage": "https://github.com/joyfive/hangahae99-9C3-W3#readme"
+}

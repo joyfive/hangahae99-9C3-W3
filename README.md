@@ -1,5 +1,5 @@
 # W3 : 개인 SA 사전과제 - 회원가입 폼 html 연습하기
-
+![](https://velog.velcdn.com/images/joyfive/post/b0a9d0f3-0448-4115-acc5-9f1ea5ebbfa3/image.gif)
 ## ▶︎ [Go to Page](https://joy-jointest.netlify.app/)
 
 ## 페이지 설명
